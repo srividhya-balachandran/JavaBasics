@@ -1,0 +1,8 @@
+public  static  void concatenate(int a, int b){
+    
+    String astring=Integer.toString(a);
+    String bstring=Integer.toString(b);
+    String ans = astring + bstring;
+    
+    System.out.println(ans);
+}
